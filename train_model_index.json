@@ -1,0 +1,8 @@
+{
+  "gpt-4": 0,
+  "vicuna-13b": 1,
+  "gpt-3.5-turbo": 2,
+  "claude-v1": 3,
+  "claude-instant-v1": 4,
+  "guanaco-33b": 5
+}

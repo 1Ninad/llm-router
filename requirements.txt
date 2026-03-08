@@ -1,0 +1,10 @@
+torch
+pandas
+numpy
+tqdm
+python-dotenv
+openai
+pyarrow
+scikit-learn
+requests
+rapidfuzz

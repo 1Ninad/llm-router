@@ -1,0 +1,82 @@
+{
+  "RWKV-4-Raven-14B": {
+    "tier": 6,
+    "class": "other"
+  },
+  "alpaca-13b": {
+    "tier": 6,
+    "class": "other"
+  },
+  "chatglm-6b": {
+    "tier": 7,
+    "class": "other"
+  },
+  "claude-instant-v1": {
+    "tier": 1,
+    "class": "strong"
+  },
+  "claude-v1": {
+    "tier": 1,
+    "class": "strong"
+  },
+  "dolly-v2-12b": {
+    "tier": 8,
+    "class": "other"
+  },
+  "fastchat-t5-3b": {
+    "tier": 7,
+    "class": "other"
+  },
+  "gpt-3.5-turbo": {
+    "tier": 2,
+    "class": "weak"
+  },
+  "gpt-4": {
+    "tier": 0,
+    "class": "strong"
+  },
+  "gpt4all-13b-snoozy": {
+    "tier": 5,
+    "class": "other"
+  },
+  "guanaco-33b": {
+    "tier": 2,
+    "class": "weak"
+  },
+  "koala-13b": {
+    "tier": 5,
+    "class": "other"
+  },
+  "llama-13b": {
+    "tier": 9,
+    "class": "other"
+  },
+  "mpt-7b-chat": {
+    "tier": 6,
+    "class": "other"
+  },
+  "oasst-pythia-12b": {
+    "tier": 6,
+    "class": "other"
+  },
+  "palm-2": {
+    "tier": 4,
+    "class": "other"
+  },
+  "stablelm-tuned-alpha-7b": {
+    "tier": 8,
+    "class": "other"
+  },
+  "vicuna-13b": {
+    "tier": 2,
+    "class": "weak"
+  },
+  "vicuna-7b": {
+    "tier": 4,
+    "class": "other"
+  },
+  "wizardlm-13b": {
+    "tier": null,
+    "class": null
+  }
+}
