@@ -25,8 +25,8 @@ appendix_tier_map = {
     "llama-13b": 9
 }
 
-DATA_PQ = "dataset_chatbot_arena.parquet"
-OUT_PQ = "train_strong_weak.parquet"
+DATA_PQ = "data/dataset_chatbot_arena.parquet"
+OUT_PQ = "data/train_strong_weak.parquet"
 MAPPING_OUT = "model_name_mapping_appendix.json"
 
 def class_from_tier(t):

@@ -44,7 +44,7 @@ def route(query, strong_model, weak_model):
     weak_id = torch.tensor([model_index[weak_model]]).to(DEVICE)
 
     with torch.no_grad():
-        p = router.win_prob(strong_id, weak_id, q)
+        p = router.win_probability(strong_id, weak_id, q)
     prob = p.item()
     if prob > 0.75:
         chosen = strong_model

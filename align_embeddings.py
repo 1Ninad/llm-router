@@ -3,9 +3,9 @@
 import numpy as np
 import pandas as pd
 
-ORIG_PQ = "dataset_chatbot_arena.parquet"
+ORIG_PQ = "data/dataset_chatbot_arena.parquet"
 EMB_FILE = "query_embeddings.npy"
-TRAIN_PQ = "train_strong_weak.parquet"
+TRAIN_PQ = "data/train_strong_weak.parquet"
 OUT_EMB = "train_embeddings.npy"
 
 def main():

@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-df = pd.read_parquet("dataset_chatbot_arena.parquet")
+df = pd.read_parquet("data/dataset_chatbot_arena.parquet")
 queries = df["query"].tolist()
 embeddings = []
 

@@ -19,7 +19,7 @@ LR = 3e-4
 WEIGHT_DECAY = 1e-5    
 
 
-TRAIN_PQ = "train_strong_weak.parquet"   
+TRAIN_PQ = "data/train_strong_weak.parquet"   
 EMB_FILE = "train_embeddings.npy"        
 MODEL_INDEX_FILE = "train_model_index.json"
 OUT_MODEL = "router_sw.pt"
@@ -90,7 +90,7 @@ def train_loop(device=DEVICE, batch_size=BATCH_SIZE):
             labels = labels.to(device)
 
             optimizer.zero_grad()
-            probs = model.win_prob(s_ids, w_ids, q_emb)
+            probs = model.win_probability(s_ids, w_ids, q_emb)
             loss = loss_fn(probs, labels)
             loss.backward()
             optimizer.step()

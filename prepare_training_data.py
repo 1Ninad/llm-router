@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 
-df = pd.read_parquet("dataset_chatbot_arena.parquet")
+df = pd.read_parquet("data/dataset_chatbot_arena.parquet")
 models = list(set(df["model_a"]).union(set(df["model_b"])))
 model_to_id = {m:i for i,m in enumerate(models)}
 
