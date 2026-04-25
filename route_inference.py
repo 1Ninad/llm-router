@@ -6,7 +6,14 @@ from matrix_factorization import MatrixFactorizationRouter
 import os
 from dotenv import load_dotenv
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+or_key = os.getenv("OPENROUTER_API_KEY")
+if not or_key:
+    raise ValueError("OPENROUTER_API_KEY is not set")
+
+client = OpenAI(
+    api_key=or_key,
+    base_url="https://openrouter.ai/api/v1",
+)
 
 # device selection
 if torch.backends.mps.is_available():
